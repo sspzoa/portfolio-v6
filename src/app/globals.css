@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  /*width: 100%;*/
+  /*height: 100%;*/
+  /*overflow: hidden;*/
+  scroll-behavior: smooth;
+  background-color: var(--grayscale-200);
+  color: var(--grayscale-1000);
+}
+
+:root {
+  --grayscale-100: #FDFEFE;
+  --grayscale-200: #F4F5F5;
+  --grayscale-300: #EAEBEB;
+  --grayscale-400: #DADDDD;
+  --grayscale-500: #B4B9B9;
+  --grayscale-600: #808989;
+  --grayscale-700: #626A6B;
+  --grayscale-800: #4B5152;
+  --grayscale-900: #333738;
+  --grayscale-1000: #1C1F1F;
+  --primary-brand: #6D87A8;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --grayscale-100: #1C1F1F;
+    --grayscale-200: #333738;
+    --grayscale-300: #4B5152;
+    --grayscale-400: #626A6B;
+    --grayscale-500: #808989;
+    --grayscale-600: #B4B9B9;
+    --grayscale-700: #DADDDD;
+    --grayscale-800: #EAEBEB;
+    --grayscale-900: #F4F5F5;
+    --grayscale-1000: #FDFEFE;
+    --primary-brand: #6D87A8;
+  }
+}
+
+.text-title {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.text-header1 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.text-header2 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.text-itemTitle {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.text-itemDescription {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.text-description {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.text-readable {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.text-token {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.text-hint {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.text-paragraph1 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.text-paragraph2 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.text-paragraph1 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+@font-face {
+  font-family: 'SUITv1';
+  font-weight: 200;
+  src: url('/fonts/SUITv1-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SUITv1';
+  font-weight: 300;
+  src: url('/fonts/SUITv1-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SUITv1';
+  font-weight: 400;
+  src: url('/fonts/SUITv1-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SUITv1';
+  font-weight: 500;
+  src: url('/fonts/SUITv1-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SUITv1';
+  font-weight: 600;
+  src: url('/fonts/SUITv1-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SUITv1';
+  font-weight: 700;
+  src: url('/fonts/SUITv1-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SUITv1';
+  font-weight: 800;
+  src: url('/fonts/SUITv1-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SUITv1';
+  font-weight: 900;
+  src: url('/fonts/SUITv1-Heavy.ttf') format('truetype');
+}
