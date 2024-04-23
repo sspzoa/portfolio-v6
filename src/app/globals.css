@@ -48,88 +48,89 @@ html, body {
 }
 
 .text-title {
-  font-size: 28px;
+  font-size: 26px;
   font-style: normal;
   font-weight: 600;
   line-height: 36px;
 }
 
 .text-header1 {
-  font-size: 24px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 600;
   line-height: 32px;
 }
 
 .text-header2 {
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: 26px;
 }
 
 .text-itemTitle {
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 600;
   line-height: 22px;
 }
 
 .text-itemDescription {
-  font-size: 14px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 500;
   line-height: 20px;
 }
 
 .text-description {
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: 22px;
 }
 
 .text-readable {
-  font-size: 14px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 600;
   line-height: 20px;
 }
 
 .text-token {
-  font-size: 12px;
+  font-size: 10px;
   font-style: normal;
   font-weight: 400;
   line-height: 18px;
 }
 
 .text-hint {
-  font-size: 10px;
+  font-size: 8px;
   font-style: normal;
   font-weight: 400;
   line-height: 16px;
 }
 
 .text-paragraph1 {
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 160%;
-}
-
-.text-paragraph2 {
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
 }
 
-.text-paragraph1 {
-  font-size: 16px;
+.text-paragraph2 {
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
 }
+
+.text-paragraph1 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
 
 @font-face {
   font-family: 'SUITv1';
