@@ -9,9 +9,9 @@ export default function Home() {
                     <Info/>
                 </div>
                 <Info/>
-                <div className='flex flex-col w-full'>
-                    <Projects/>
+                <div className='flex flex-col w-full p-[50px] gap-[50px]'>
                     <Awards/>
+                    <Projects/>
                 </div>
             </div>
         </>
@@ -79,7 +79,7 @@ function Info() {
 function Projects() {
     return (
         <>
-            <div className='flex flex-col px-[50px] pt-[50px] gap-[10px] w-full'>
+            <div className='flex flex-col gap-[10px] w-full'>
                 <h1 className='text-itemTitle text-grayscale-600'>Projects</h1>
                 <div className='grid grid-cols-2 gap-[16px]'>
                     <div className='w-full bg-grayscale-100 border-grayscale-300 border-[1px] rounded-[16px]'>
@@ -123,9 +123,9 @@ function Projects() {
 function Awards() {
     return (
         <>
-            <div className='flex flex-col p-[50px] gap-[10px] w-full'>
+            <div className='flex flex-col gap-[10px] w-full'>
                 <h1 className='text-itemTitle text-grayscale-600'>Awards</h1>
-                <div className='grid grid-cols-3 gap-[16px]'>
+                <div className='grid grid-cols-2 gap-[16px]'>
                     <div
                         className='flex flex-row p-[20px] w-full bg-grayscale-100 border-grayscale-300 border-[1px] rounded-[16px] gap-[12px] items-center'>
                         <Image src={'/icons/gold-medal.png'} alt='dimigoin' width={44} height={44}
