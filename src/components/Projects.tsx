@@ -59,7 +59,7 @@ export default function Projects() {
                                   className='w-full bg-grayscale-100 border-grayscale-300 border-[1px] rounded-[16px]'>
                                 <img
                                     src={cover || ''}
-                                    className='w-full h-[180px] rounded-t-[16px] object-cover'/>
+                                    className='w-full aspect-video rounded-t-[16px] object-cover'/>
                                 <div className='flex flex-row p-[15px] w-full gap-[12px] items-center'>
                                     <img src={icon || ''}
                                          className='w-[44px] h-[44px] rounded-[8px] object-contain'/>
