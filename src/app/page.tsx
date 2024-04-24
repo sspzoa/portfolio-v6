@@ -5,7 +5,7 @@ import Projects from "@/components/Projects";
 export default function Home() {
     return (
         <>
-            <div className='flex flex-col sm:flex-row sm:gap-[10px]'>
+            <div className='flex flex-col gap-[10px] sm:flex-row sm:gap-0'>
                 <div className='fixed left-0 hidden sm:block'>
                     <Info/>
                 </div>
