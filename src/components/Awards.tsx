@@ -51,7 +51,7 @@ export default function Awards() {
                         return (
                             <div
                                 key={award.id}
-                                className='flex flex-row p-[20px] w-full bg-grayscale-100 border-grayscale-300 border-[1px] rounded-[16px] gap-[12px] items-center'>
+                                className='flex flex-row p-[20px] w-full bg-grayscale-100 border-grayscale-200 border-[1px] rounded-[16px] gap-[12px] items-center'>
                                 <Image src={`/icons/${medal}-medal.png` || ''} alt='medal' width={44} height={44}
                                        className='rounded-full'/>
                                 <div className='flex flex-col gap-[2px]'>

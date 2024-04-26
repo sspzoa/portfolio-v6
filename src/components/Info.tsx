@@ -7,7 +7,7 @@ import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 export default function Info() {
     return (
         <>
-            <div className='flex-shrink-0 h-auto sm:h-[100vh] p-[30px] pb-0 sm:p-[50px] flex flex-col gap-[40px] bg-grayscale-200 sm:bg-grayscale-100'>
+            <div className='flex-shrink-0 h-auto sm:h-[100vh] p-[30px] pb-0 sm:p-[50px] flex flex-col gap-[40px] bg-grayscale-2s00 sm:bg-grayscale-100'>
                 <div className='flex flex-col gap-[8px]'>
                     <Image className='rounded-full' src={'/images/sspzoa_logo.svg'} alt='sspzoa' width={120}
                            height={120}/>

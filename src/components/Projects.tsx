@@ -56,7 +56,7 @@ export default function Projects() {
 
                         return (
                             <Link key={project.id} href={github || '#'} target='_blank' rel="noreferrer"
-                                  className='w-full bg-grayscale-100 border-grayscale-300 border-[1px] rounded-[16px]'>
+                                  className='w-full bg-grayscale-100 border-grayscale-200 border-[1px] rounded-[16px]'>
                                 <img
                                     src={cover || ''}
                                     className='w-full aspect-video rounded-t-[16px] object-cover'/>
