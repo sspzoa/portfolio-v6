@@ -1,5 +1,6 @@
 import Image from "next/image";
 import {use} from 'react';
+import Link from "next/link";
 
 interface Award {
     id: string;
@@ -47,10 +48,10 @@ export default function Awards() {
                         const medal = award?.properties?.medal?.select?.name;
                         const name = award?.properties?.name?.title[0]?.plain_text;
                         const description = award?.properties?.description?.rich_text[0]?.plain_text;
+                        const public_url = award?.public_url;
 
                         return (
-                            <div
-                                key={award.id}
+                            <Link key={award.id} href={public_url || '#'} target='_blank' rel="noreferrer"
                                 className='flex flex-row p-[20px] w-full bg-grayscale-100 border-grayscale-200 border-[1px] rounded-[16px] gap-[12px] items-center'>
                                 <Image src={`/icons/${medal}-medal.png` || ''} alt='medal' width={44} height={44}
                                        className='rounded-full'/>
@@ -58,7 +59,7 @@ export default function Awards() {
                                     <h1 className='text-itemTitle text-grayscale-800'>{name || 'null'}</h1>
                                     <p className='text-itemDescription text-grayscale-800'>{description || 'null'}</p>
                                 </div>
-                            </div>
+                            </Link>
                         );
                     })}
                 </div>

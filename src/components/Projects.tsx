@@ -10,7 +10,6 @@ interface Project {
     properties: {
         name?: { title: { plain_text: string; }[]; };
         description?: { rich_text: { plain_text: string; }[]; };
-        github?: { url: string; };
     };
 
 }
@@ -52,10 +51,10 @@ export default function Projects() {
                         const cover = project?.cover?.file?.url;
                         const name = project?.properties?.name?.title[0]?.plain_text;
                         const description = project?.properties?.description?.rich_text[0]?.plain_text;
-                        const github = project?.properties?.github?.url;
+                        const public_url = project?.public_url;
 
                         return (
-                            <Link key={project.id} href={github || '#'} target='_blank' rel="noreferrer"
+                            <Link key={project.id} href={public_url || '#'} target='_blank' rel="noreferrer"
                                   className='w-full bg-grayscale-100 border-grayscale-200 border-[1px] rounded-[16px]'>
                                 <img
                                     src={cover || ''}
