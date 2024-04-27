@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -45,6 +47,11 @@ html, body {
     --grayscale-1000: #F7F9FF;
     --primary-brand: #6D87A8;
   }
+}
+
+.text-firaMono {
+  font-family: 'Fira Mono', monospace;
+  font-weight: 600;
 }
 
 .text-title {

@@ -55,7 +55,7 @@ export default function Projects() {
 
                         return (
                             <Link key={project.id} href={public_url || '#'} target='_blank' rel="noreferrer"
-                                  className='w-full bg-grayscale-100 border-grayscale-200 border-[1px] rounded-[16px]'>
+                                  className='w-full bg-grayscale-100 border-grayscale-200 border-[1px] rounded-[16px] hover:drop-shadow-lg ease-in-out duration-500 hover:-translate-y-[8px]'>
                                 <img
                                     src={cover || ''}
                                     className='w-full aspect-video rounded-t-[16px] object-cover'/>

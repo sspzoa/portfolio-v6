@@ -1,12 +1,14 @@
 import Info from "@/components/Info";
 import Awards from "@/components/Awards";
 import Projects from "@/components/Projects";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
     const currentYear = new Date().getFullYear();
     return (
         <>
-            <div className='flex flex-col gap-[10px] sm:flex-row sm:gap-0'>
+            <div className='flex flex-col gap-[10px] sm:flex-row sm:gap-0 z-10'>
                 <div className='fixed left-0 hidden sm:block'>
                     <Info/>
                 </div>
@@ -14,6 +16,11 @@ export default function Home() {
                     <Info/>
                 </div>
                 <div className='flex flex-col w-full p-[30px] gap-[30px] sm:gap-[50px] sm:p-[50px]'>
+                    <Link href={'https://velog.io/@sspzoa/posts'} target='_blank' rel="noreferrer"
+                          className='bg-grayscale-100 p-[20px] rounded-[16px] flex flex-row gap-[12px] justify-center items-center hover:drop-shadow-md ease-in-out duration-500 hover:-translate-y-[8px]'>
+                        <Image src={'/images/velog.svg'} alt={'velog'} width={24} height={24} />
+                        <h1 className='text-firaMono'>sspzoa.log</h1>
+                    </Link>
                     <Awards/>
                     <Projects/>
                     <div>

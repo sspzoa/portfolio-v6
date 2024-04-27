@@ -52,7 +52,7 @@ export default function Awards() {
 
                         return (
                             <Link key={award.id} href={public_url || '#'} target='_blank' rel="noreferrer"
-                                  className='flex flex-row p-[20px] w-full bg-grayscale-100 border-grayscale-200 border-[1px] rounded-[16px] gap-[12px] items-center'>
+                                  className='flex flex-row p-[20px] w-full bg-grayscale-100 border-grayscale-200 border-[1px] rounded-[16px] gap-[12px] items-center hover:drop-shadow-md ease-in-out duration-500 hover:-translate-y-[8px]'>
                                 <Image src={`/icons/${medal}-medal.png` || ''} alt='medal' width={44} height={44}
                                        className='rounded-full'/>
                                 <div className='flex flex-col gap-[2px]'>
