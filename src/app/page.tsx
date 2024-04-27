@@ -3,6 +3,7 @@ import Awards from "@/components/Awards";
 import Projects from "@/components/Projects";
 
 export default function Home() {
+    const currentYear = new Date().getFullYear();
     return (
         <>
             <div className='flex flex-col gap-[10px] sm:flex-row sm:gap-0'>
@@ -15,6 +16,9 @@ export default function Home() {
                 <div className='flex flex-col w-full p-[30px] gap-[30px] sm:gap-[50px] sm:p-[50px]'>
                     <Awards/>
                     <Projects/>
+                    <div>
+                        <h1 className='text-center sm:text-right text-readable text-grayscale-500'>Copyright © 2023-{currentYear} Seungpyo Suh All rights reserved.</h1>
+                    </div>
                 </div>
             </div>
         </>
