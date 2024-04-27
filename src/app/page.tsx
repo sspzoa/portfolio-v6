@@ -16,11 +16,17 @@ export default function Home() {
                     <Info/>
                 </div>
                 <div className='flex flex-col w-full p-[30px] gap-[30px] sm:gap-[50px] sm:p-[50px]'>
-                    <Link href={'https://velog.io/@sspzoa/posts'} target='_blank' rel="noreferrer"
-                          className='bg-grayscale-100 p-[20px] rounded-[16px] flex flex-row gap-[12px] justify-center items-center hover:drop-shadow-md ease-in-out duration-500 hover:-translate-y-[8px]'>
-                        <Image src={'/images/velog.svg'} alt={'velog'} width={24} height={24} />
-                        <h1 className='text-firaMono'>sspzoa.log</h1>
-                    </Link>
+                    <div className='grid grid-cols-1 lg:grid-cols-2 gap-[16px]'>
+                        <Link href={'https://disquiet.io/@sspzoa'} target='_blank' rel="noreferrer"
+                              className=' w-full bg-grayscale-100 p-[20px] rounded-[16px] flex justify-center items-center hover:drop-shadow-md ease-in-out duration-500 hover:-translate-y-[8px]'>
+                            <Image className='overflow-hidden' src={'/images/disquiet.svg'} alt={'disquiet'} height={24} width={115} />
+                        </Link>
+                        <Link href={'https://velog.io/@sspzoa/posts'} target='_blank' rel="noreferrer"
+                              className='w-full bg-grayscale-100 p-[20px] rounded-[16px] flex flex-row gap-[12px] justify-center items-center hover:drop-shadow-md ease-in-out duration-500 hover:-translate-y-[8px]'>
+                            <Image src={'/images/velog.svg'} alt={'velog'} width={24} height={24} />
+                            <h1 className='text-firaMono'>sspzoa.log</h1>
+                        </Link>
+                    </div>
                     <Awards/>
                     <Projects/>
                     <div>
