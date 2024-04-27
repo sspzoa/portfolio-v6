@@ -30,6 +30,7 @@ async function fetchAwards() {
                 "Notion-Version": "2022-02-22",
                 "Content-Type": "application/json",
                 Authorization: `Bearer ${process.env.NOTION_API_KEY}`,
+                "Cache-Control": "no-cache",
             },
         }
     );
