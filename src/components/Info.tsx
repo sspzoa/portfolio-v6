@@ -7,7 +7,8 @@ import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 export default function Info() {
     return (
         <>
-            <div className='flex-shrink-0 h-auto sm:h-[100vh] p-[30px] pb-0 sm:p-[50px] flex flex-col justify-between gap-[40px] bg-grayscale-2s00 sm:bg-grayscale-100'>
+            <div
+                className='flex-shrink-0 h-auto w-[400px] sm:h-[100vh] p-[30px] pb-0 sm:p-[50px] flex flex-col justify-between gap-[40px] bg-grayscale-2s00 sm:bg-grayscale-100'>
                 <div className='flex flex-col gap-[40px]'>
                     <div className='flex flex-col gap-[8px]'>
                         <Image className='rounded-full' src={'/images/sspzoa_logo.svg'} alt='sspzoa' width={120}
@@ -30,14 +31,35 @@ export default function Info() {
                     </div>
                     <div className='flex flex-col gap-[10px]'>
                         <h1 className='text-itemTitle text-grayscale-600'>About</h1>
-                        <div className='flex flex-col gap-[8px]'>
-                            <p className='text-itemDescription text-grayscale-800'>디미고 인트라넷 개발팀, DIN Project
-                                Manager</p>
-                            <p className='text-itemDescription text-grayscale-800'>교내 무인매점 결제 솔루션 개발팀, 디미페이 App
-                                Developer</p>
-                            <p className='text-itemDescription text-grayscale-800'>IT 소셜벤처 동아리, LUNA Developer</p>
-                            <p className='text-itemDescription text-grayscale-800'>한국디지털미디어고등학교 해킹방어과
-                                22기</p>
+                        <div className='flex flex-col gap-[16px]'>
+                            <div className='flex flex-row w-full gap-[12px] items-center'>
+                                <Image className='rounded-[8px]' src={'/images/career/din.svg'} alt='din' width={36}
+                                       height={36}/>
+                                <div className='flex flex-col gap-[2px]'>
+                                    <h1 className='text-itemTitle text-grayscale-800'>Project Manager</h1>
+                                    <p className='text-itemDescription text-grayscale-800'>DIN(딘)
+                                    </p>
+                                </div>
+                            </div>
+                            <div className='flex flex-row w-full gap-[12px] items-center'>
+                                <Image className='rounded-[8px]' src={'/images/career/dimipay.svg'} alt='din' width={36}
+                                       height={36}/>
+                                <div className='flex flex-col gap-[2px]'>
+                                    <h1 className='text-itemTitle text-grayscale-800'>App Developer</h1>
+                                    <p className='text-itemDescription text-grayscale-800'>Dimipay(디미페이)
+                                    </p>
+                                </div>
+                            </div>
+                            <div className='flex flex-row w-full gap-[12px] items-center'>
+                                <Image className='rounded-[8px]' src={'/images/career/kdmhs.png'} alt='din' width={36}
+                                       height={36}/>
+                                <div className='flex flex-col gap-[2px]'>
+                                    <h1 className='text-itemTitle text-grayscale-800'>22HD</h1>
+                                    <p className='text-itemDescription text-grayscale-800'>Korea Digital Media High
+                                        School
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -50,7 +72,7 @@ export default function Info() {
                         </Link>
                         <Link href='https://github.com/sspzoa' target='_blank' rel="noreferrer"
                               className='flex flex-row items-center gap-[8px]'>
-                        <FontAwesomeIcon icon={faGithub} className='w-[14px] h-[14px] text-grayscale-800'/>
+                            <FontAwesomeIcon icon={faGithub} className='w-[14px] h-[14px] text-grayscale-800'/>
                             <p className='text-itemDescription text-grayscale-800'>sspzoa</p>
                         </Link>
                         <Link href='https://www.linkedin.com/in/seungpyosuh/' target='_blank' rel="noreferrer"
