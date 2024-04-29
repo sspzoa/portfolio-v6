@@ -33,7 +33,7 @@ export default function Info() {
                         <h1 className='text-itemTitle text-grayscale-600'>About</h1>
                         <div className='flex flex-col gap-[16px]'>
                             <div className='flex flex-row w-full gap-[12px] items-center'>
-                                <h2 className='text-description text-grayscale-500'>2024.03~</h2>
+                                <h2 className='text-description text-grayscale-500 w-[70px]'>2024.03~</h2>
                                 <div className='flex flex-col gap-[2px]'>
                                     <h1 className='text-itemTitle text-grayscale-800'>Project Manager</h1>
                                     <p className='text-itemDescription text-grayscale-800'>DIN(딘)
@@ -41,7 +41,7 @@ export default function Info() {
                                 </div>
                             </div>
                             <div className='flex flex-row w-full gap-[12px] items-center'>
-                                <h2 className='text-description text-grayscale-500'>2023.10~</h2>
+                                <h2 className='text-description text-grayscale-500 w-[70px]'>2023.10~</h2>
                                 <div className='flex flex-col gap-[2px]'>
                                     <h1 className='text-itemTitle text-grayscale-800'>App Developer</h1>
                                     <p className='text-itemDescription text-grayscale-800'>Dimipay(디미페이)
@@ -49,7 +49,7 @@ export default function Info() {
                                 </div>
                             </div>
                             <div className='flex flex-row w-full gap-[12px] items-center'>
-                                <h2 className='text-description text-grayscale-500'>2023.03~</h2>
+                                <h2 className='text-description text-grayscale-500 w-[70px]'>2023.03~</h2>
                                 <div className='flex flex-col gap-[2px]'>
                                     <h1 className='text-itemTitle text-grayscale-800'>22HD</h1>
                                     <p className='text-itemDescription text-grayscale-800'>Korea Digital Media High
