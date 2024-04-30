@@ -27,6 +27,7 @@ export default function Info() {
                             <Image src={'/images/skills/android.svg'} alt='android' width={32} height={32}/>
                             <Image src={'/images/skills/react.svg'} alt='react' width={32} height={32}/>
                             <Image src={'/images/skills/nest.svg'} alt='nest' width={32} height={32}/>
+                            <Image src={'/images/skills/ktor.svg'} alt='ktor' width={32} height={32}/>
                         </div>
                     </div>
                     <div className='flex flex-col gap-[10px]'>

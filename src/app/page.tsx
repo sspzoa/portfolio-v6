@@ -25,7 +25,7 @@ export default function Home() {
                         <Link href={'https://velog.io/@sspzoa/posts'} target='_blank' rel="noreferrer"
                               className='w-full bg-grayscale-100 p-[20px] rounded-[16px] flex flex-row gap-[12px] justify-center items-center hover:drop-shadow-md ease-in-out duration-500 hover:-translate-y-[8px]'>
                             <Velog/>
-                            <h1 className='text-firaMono text-grayscale-800'>sspzoa.log</h1>
+                            <h1 className='font-firamono font-semibold text-grayscale-800'>sspzoa.log</h1>
                         </Link>
                     </div>
                     <Awards/>

@@ -22,7 +22,9 @@ const config: Config = {
         'primary-brand': 'var(--primary-brand)',
       },
       fontFamily: {
-        'sans': ['SUITv1', 'sans-serif'],
+        'suit': ['NothingFont', 'sans-serif'],
+        'firamono': ['FiraMono', 'monospace'],
+        'nothing': ['NothingFont', 'sans-serif'],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
