@@ -20,11 +20,11 @@ const config: Config = {
         'grayscale-900': 'var(--grayscale-900)',
         'grayscale-1000': 'var(--grayscale-1000)',
         'primary-brand': 'var(--primary-brand)',
+        'primary-negative': 'var(--primary-negative)',
       },
       fontFamily: {
-        'suit': ['NothingFont', 'sans-serif'],
-        'firamono': ['FiraMono', 'monospace'],
-        'nothing': ['NothingFont', 'sans-serif'],
+        suit: ['var(--font-suit)'],
+        firamono: ['var(--font-firamono)'],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

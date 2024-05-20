@@ -3,6 +3,7 @@ import Link from "next/link";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import {Android, Flutter, Nest, Next, Supabase} from "@/components/svg";
 
 export default function Info() {
     return (
@@ -23,11 +24,11 @@ export default function Info() {
                     <div className='flex flex-col gap-[10px]'>
                         <h1 className='text-itemTitle text-grayscale-600'>Skills</h1>
                         <div className='flex flex-row gap-[24px]'>
-                            <Image src={'/images/skills/flutter.svg'} alt='flutter' width={32} height={32}/>
-                            <Image src={'/images/skills/android.svg'} alt='android' width={32} height={32}/>
-                            <Image src={'/images/skills/next.svg'} alt='next' width={32} height={32}/>
-                            <Image src={'/images/skills/nest.svg'} alt='nest' width={32} height={32}/>
-                            <Image src={'/images/skills/supabase.svg'} alt='supabase' width={32} height={32}/>
+                            <Flutter/>
+                            <Android/>
+                            <Next/>
+                            <Nest/>
+                            <Supabase/>
                         </div>
                     </div>
                     <div className='flex flex-col gap-[10px]'>

@@ -1,19 +1,34 @@
 import type {Metadata} from "next";
-import {Inter} from "next/font/google";
 import "./globals.css";
+import localFont from 'next/font/local'
 
-const inter = Inter({subsets: ["latin"]});
+const suit = localFont({
+    src: [
+        {
+            path: './fonts/SUIT-Variable.woff2',
+        },
+    ],
+    variable: '--font-suit',
+})
+const firaMono = localFont({
+    src: [
+        {
+            path: './fonts/FiraMono-Regular.ttf',
+            weight: '400',
+        },
+        {
+            path: './fonts/FiraMono-Medium.ttf',
+            weight: '500',
+        },
+        {
+            path: './fonts/FiraMono-Bold.ttf',
+            weight: '700',
+        },
+    ],
+    variable: '--font-firamono',
+})
 
-export const metadata: Metadata = {
-    title: "I'm Seungpyo Suh",
-    description: "Mobile/Frontend Developer",
-};
-
-export default function RootLayout({
-                                       children,
-                                   }: Readonly<{
-    children: React.ReactNode;
-}>) {
+export default function RootLayout({children,}: Readonly<{ children: React.ReactNode; }>) {
     return (
         <html lang="en">
         <head>
@@ -21,7 +36,8 @@ export default function RootLayout({
             <meta name="theme-color" content="#6D87A8"/>
             <meta name="apple-mobile-web-app-status-bar-style" content="#6D87A8"/>
         </head>
-        <body className={inter.className}>{children}</body>
+        <body
+            className={`${suit.className} ${firaMono.variable}`}>{children}</body>
         </html>
     );
 }
