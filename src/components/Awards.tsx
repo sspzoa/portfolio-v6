@@ -43,7 +43,7 @@ export default function Awards() {
         <>
             <div className='flex flex-col gap-[10px] w-full'>
                 <h1 className='text-itemTitle text-grayscale-600'>Awards</h1>
-                <div className='grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-[16px]'>
+                <div className='grid grid-cols-1 lg:grid-cols-2 gap-[16px]'>
                     {data.results.map((award: Award) => {
                         const medal = award?.properties?.medal?.select?.name;
                         const name = award?.properties?.name?.title[0]?.plain_text;
@@ -52,7 +52,7 @@ export default function Awards() {
 
                         return (
                             <Link key={award.id} href={public_url || '#'} target='_blank' rel="noreferrer"
-                                  className='flex flex-row p-[20px] w-full bg-grayscale-100 border-grayscale-200 border-[1px] rounded-[16px] gap-[12px] items-center hover:drop-shadow-md ease-in-out duration-500 hover:-translate-y-[8px]'>
+                                  className='flex flex-row p-[20px] w-full bg-grayscale-100 border-grayscale-200 border-[1px] rounded-[16px] gap-[12px] items-center ease-in-out duration-500 hover:-translate-y-[8px]'>
                                 <Image src={`/icons/${medal}-medal.png` || ''} alt='medal' width={44} height={44}
                                        className='rounded-full'/>
                                 <div className='flex flex-col gap-[2px]'>

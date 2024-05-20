@@ -45,7 +45,7 @@ export default function Projects() {
         <>
             <div className='flex flex-col gap-[10px] w-full'>
                 <h1 className='text-itemTitle text-grayscale-600'>Projects</h1>
-                <div className='grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-[16px]'>
+                <div className='grid grid-cols-1 lg:grid-cols-2 gap-[16px]'>
                     {data.results.map((project: Project) => {
                         const icon = project?.icon?.file?.url;
                         const cover = project?.cover?.file?.url;
@@ -55,7 +55,7 @@ export default function Projects() {
 
                         return (
                             <Link key={project.id} href={public_url || '#'} target='_blank' rel="noreferrer"
-                                  className='w-full bg-grayscale-100 border-grayscale-200 border-[1px] rounded-[16px] hover:drop-shadow-lg ease-in-out duration-500 hover:-translate-y-[8px]'>
+                                  className='w-full bg-grayscale-100 border-grayscale-200 border-[1px] rounded-[16px] ease-in-out duration-500 hover:-translate-y-[8px]'>
                                 <img
                                     src={cover || ''}
                                     className='w-full aspect-video rounded-t-[16px] object-cover'/>
