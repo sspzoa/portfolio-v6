@@ -19,7 +19,7 @@ export default function Info() {
                         </h1>
                         <p className='text-paragraph1 text-grayscale-600'>
                             I&apos;m a Mobile/Frontend Developer<br/>
-                            with a passion for creating and studying<br/>
+                            passionate about creating and learning.
                         </p>
                     </div>
                     <div className='flex flex-col gap-[20px]'>
