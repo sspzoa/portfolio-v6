@@ -43,7 +43,7 @@ export default function Projects() {
 
     return (
         <>
-            <div className='flex flex-col gap-[10px] w-full'>
+            <div className='flex flex-col gap-[20px] w-full'>
                 <h1 className='text-itemTitle text-grayscale-600'>Projects</h1>
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-[16px]'>
                     {data.results.map((project: Project) => {

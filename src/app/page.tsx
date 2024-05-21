@@ -1,8 +1,7 @@
 import Info from "@/components/Info";
 import Awards from "@/components/Awards";
 import Projects from "@/components/Projects";
-import Link from "next/link";
-import {Velog} from "@/components/svg";
+import Links from "@/components/Links";
 
 export default function Home() {
     const currentYear = new Date().getFullYear();
@@ -16,13 +15,9 @@ export default function Home() {
                     <Info/>
                 </div>
                 <div className='flex flex-col w-full p-[30px] gap-[30px] sm:gap-[50px] sm:p-[50px]'>
-                    <Link href={'https://velog.io/@sspzoa/posts'} target='_blank' rel="noreferrer"
-                          className='border-grayscale-200 border-[1px] w-full bg-grayscale-100 p-[20px] rounded-[16px] flex flex-row gap-[12px] justify-center items-center ease-in-out duration-500 hover:-translate-y-[8px]'>
-                        <Velog/>
-                        <h1 className='font-firamono font-semibold text-grayscale-800'>sspzoa.log</h1>
-                    </Link>
-                    <Awards/>
+                    <Links/>
                     <Projects/>
+                    <Awards/>
                     <div>
                         <h1 className='text-center sm:text-right text-readable text-grayscale-500'>Copyright © 2023-{currentYear} Seungpyo Suh All rights reserved.</h1>
                     </div>

@@ -3,35 +3,34 @@ import Link from "next/link";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
-import {Android, Flutter, Nest, Next, Supabase} from "@/components/svg";
+import {Android, Flutter, Nest, React} from "@/components/svg";
 
 export default function Info() {
     return (
         <>
             <div
                 className='flex-shrink-0 h-auto w-[400px] sm:h-[100vh] p-[30px] pb-0 sm:p-[50px] flex flex-col justify-between gap-[40px] bg-grayscale-2s00 sm:bg-grayscale-100'>
-                <div className='flex flex-col gap-[40px]'>
-                    <div className='flex flex-col gap-[8px]'>
+                <div className='flex flex-col gap-[50px]'>
+                    <div className='flex flex-col gap-[10px]'>
                         <Image className='rounded-full' src={'/images/sspzoa_logo.svg'} alt='sspzoa' width={120}
                                height={120}/>
-                        <h1 className='text-[32px] font-[600] text-grayscale-1000'>
+                        <h1 className='text-[32px] font-[800] text-grayscale-1000'>
                             Seungpyo Suh
                         </h1>
-                        <p className='text-paragraph1 text-grayscale-800'>
+                        <p className='text-paragraph1 text-grayscale-600'>
                             Mobile/Frontend Developer
                         </p>
                     </div>
-                    <div className='flex flex-col gap-[10px]'>
+                    <div className='flex flex-col gap-[20px]'>
                         <h1 className='text-itemTitle text-grayscale-600'>Skills</h1>
                         <div className='flex flex-row gap-[24px]'>
                             <Flutter/>
                             <Android/>
-                            <Next/>
+                            <React/>
                             <Nest/>
-                            <Supabase/>
                         </div>
                     </div>
-                    <div className='flex flex-col gap-[10px]'>
+                    <div className='flex flex-col gap-[20px]'>
                         <h1 className='text-itemTitle text-grayscale-600'>About</h1>
                         <div className='flex flex-col gap-[16px]'>
                             <div className='flex flex-row w-full gap-[12px] items-center'>
@@ -54,15 +53,14 @@ export default function Info() {
                                 <h2 className='text-description text-grayscale-500 w-[70px]'>2023.03~</h2>
                                 <div className='flex flex-col gap-[2px]'>
                                     <h1 className='text-itemTitle text-grayscale-800'>22HD</h1>
-                                    <p className='text-itemDescription text-grayscale-800'>Korea Digital Media High
-                                        School
+                                    <p className='text-itemDescription text-grayscale-800'>한국디지털미디어고등학교
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-col gap-[10px]'>
+                <div className='flex flex-col gap-[20px]'>
                     <h1 className='text-itemTitle text-grayscale-600'>Contact</h1>
                     <div className='flex flex-col gap-[12px]'>
                         <Link href='mailto:me@sspzoa.io' className='flex flex-row items-center gap-[8px]'>
