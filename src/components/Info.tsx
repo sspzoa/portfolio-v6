@@ -9,20 +9,20 @@ export default function Info() {
     return (
         <>
             <div
-                className='flex-shrink-0 h-auto w-[400px] sm:h-[100vh] p-[30px] pb-0 sm:p-[50px] flex flex-col justify-between gap-[40px] bg-grayscale-2s00 sm:bg-grayscale-100'>
+                className='flex-shrink-0 h-auto w-full sm:w-[400px] sm:h-[100vh] px-[30px] py-[50px] sm:p-[50px] flex flex-col justify-between gap-[40px] bg-grayscale-100'>
                 <div className='flex flex-col gap-[50px]'>
-                    <div className='flex flex-col gap-[10px]'>
+                    <div className='flex flex-col gap-[10px] items-center sm:items-start'>
                         <Image className='rounded-full' src={'/images/sspzoa_logo.svg'} alt='sspzoa' width={120}
                                height={120}/>
                         <h1 className='text-[32px] font-[800] text-grayscale-1000'>
                             Seungpyo Suh
                         </h1>
-                        <p className='text-paragraph1 text-grayscale-600'>
+                        <p className='text-paragraph1 text-grayscale-600 text-center sm:text-left'>
                             I&apos;m a Mobile/Frontend Developer<br/>
                             passionate about creating and learning.
                         </p>
                     </div>
-                    <div className='flex flex-col gap-[20px]'>
+                    <div className='flex flex-col gap-[20px] items-center sm:items-start'>
                         <h1 className='text-itemTitle text-grayscale-600'>Skills</h1>
                         <div className='flex flex-row gap-[24px]'>
                             <Flutter/>
@@ -31,19 +31,19 @@ export default function Info() {
                             <Nest/>
                         </div>
                     </div>
-                    <div className='flex flex-col gap-[20px]'>
+                    <div className='flex flex-col gap-[20px] items-center sm:items-start'>
                         <h1 className='text-itemTitle text-grayscale-600'>About</h1>
-                        <div className='flex flex-col gap-[16px]'>
-                            <div className='flex flex-row w-full gap-[12px] items-center'>
-                                <h2 className='text-description text-grayscale-500 w-[70px]'>2024.03~</h2>
+                        <div className='grid grid-cols-2 sm:flex sm:flex-col gap-[20px] sm:gap-[16px]'>
+                            <div className='flex flex-col sm:flex-row w-full gap-[12px] items-center'>
+                                <h2 className='text-description text-grayscale-500 sm:w-[70px]'>2024.03~</h2>
                                 <div className='flex flex-col gap-[2px]'>
                                     <h1 className='text-itemTitle text-grayscale-800'>Project Manager</h1>
                                     <p className='text-itemDescription text-grayscale-800'>DIN(딘)
                                     </p>
                                 </div>
                             </div>
-                            <div className='flex flex-row w-full gap-[12px] items-center'>
-                                <h2 className='text-description text-grayscale-500 w-[70px]'>2023.10~</h2>
+                            <div className='flex flex-col sm:flex-row w-full gap-[12px] items-center'>
+                                <h2 className='text-description text-grayscale-500 sm:w-[70px]'>2023.10~</h2>
                                 <div className='flex flex-col gap-[2px]'>
                                     <h1 className='text-itemTitle text-grayscale-800'>App Developer</h1>
                                     <p className='text-itemDescription text-grayscale-800'>Dimipay(디미페이)
@@ -53,7 +53,7 @@ export default function Info() {
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-col gap-[20px]'>
+                <div className='flex flex-col gap-[20px] items-center sm:items-start'>
                     <h1 className='text-itemTitle text-grayscale-600'>Contact</h1>
                     <div className='flex flex-col gap-[12px]'>
                         <Link href='mailto:me@sspzoa.io' className='flex flex-row items-center gap-[8px]'>

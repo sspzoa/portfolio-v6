@@ -14,7 +14,7 @@ export default function Home() {
                 <div className='flex-shrink-0 sm:opacity-0 opacity-100 z-10'>
                     <Info/>
                 </div>
-                <div className='flex flex-col w-full p-[30px] gap-[30px] sm:gap-[50px] sm:p-[50px]'>
+                <div className='flex flex-col w-full px-[16px] py-[30px] gap-[30px] sm:gap-[50px] sm:p-[50px]'>
                     <Links/>
                     <Projects/>
                     <Awards/>
