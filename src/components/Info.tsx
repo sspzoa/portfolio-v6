@@ -18,7 +18,8 @@ export default function Info() {
                             Seungpyo Suh
                         </h1>
                         <p className='text-paragraph1 text-grayscale-600'>
-                            Mobile/Frontend Developer
+                            I&apos;m a Mobile/Frontend Developer<br/>
+                            with a passion for creating and studying<br/>
                         </p>
                     </div>
                     <div className='flex flex-col gap-[20px]'>
