@@ -49,14 +49,6 @@ export default function Info() {
                                     </p>
                                 </div>
                             </div>
-                            <div className='flex flex-row w-full gap-[12px] items-center'>
-                                <h2 className='text-description text-grayscale-500 w-[70px]'>2023.03~</h2>
-                                <div className='flex flex-col gap-[2px]'>
-                                    <h1 className='text-itemTitle text-grayscale-800'>22HD</h1>
-                                    <p className='text-itemDescription text-grayscale-800'>한국디지털미디어고등학교
-                                    </p>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
