@@ -24,7 +24,6 @@ const config: Config = {
       },
       fontFamily: {
         suit: ['var(--font-suit)'],
-        firamono: ['var(--font-firamono)'],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

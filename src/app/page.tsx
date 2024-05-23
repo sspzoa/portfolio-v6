@@ -1,7 +1,6 @@
 import Info from "@/components/Info";
 import Awards from "@/components/Awards";
 import Projects from "@/components/Projects";
-import Links from "@/components/Links";
 
 export default function Home() {
     const currentYear = new Date().getFullYear();
@@ -15,9 +14,8 @@ export default function Home() {
                     <Info/>
                 </div>
                 <div className='flex flex-col w-full px-[16px] py-[30px] gap-[30px] sm:gap-[50px] sm:p-[50px]'>
-                    <Links/>
-                    <Projects/>
                     <Awards/>
+                    <Projects/>
                     <div>
                         <h1 className='text-center sm:text-right text-readable text-grayscale-500'>Copyright © 2023-{currentYear} Seungpyo Suh All rights reserved.</h1>
                     </div>

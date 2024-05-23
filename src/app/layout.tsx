@@ -10,23 +10,6 @@ const suit = localFont({
     ],
     variable: '--font-suit',
 })
-const firaMono = localFont({
-    src: [
-        {
-            path: './fonts/FiraMono-Regular.ttf',
-            weight: '400',
-        },
-        {
-            path: './fonts/FiraMono-Medium.ttf',
-            weight: '500',
-        },
-        {
-            path: './fonts/FiraMono-Bold.ttf',
-            weight: '700',
-        },
-    ],
-    variable: '--font-firamono',
-})
 
 export default function RootLayout({children,}: Readonly<{ children: React.ReactNode; }>) {
     return (
@@ -37,7 +20,7 @@ export default function RootLayout({children,}: Readonly<{ children: React.React
             <meta name="apple-mobile-web-app-status-bar-style" content="#6D87A8"/>
         </head>
         <body
-            className={`${suit.className} ${firaMono.variable}`}>{children}</body>
+            className={`${suit.className}`}>{children}</body>
         </html>
     );
 }
