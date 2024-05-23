@@ -11,6 +11,11 @@ const suit = localFont({
     variable: '--font-suit',
 })
 
+export const metadata: Metadata = {
+    title: "Seungpyo Suh",
+    description: "I'm a Mobile/Frontend Developer, passionate about creating and learning."
+};
+
 export default function RootLayout({children,}: Readonly<{ children: React.ReactNode; }>) {
     return (
         <html lang="en">
