@@ -6,7 +6,7 @@ export default function Portfolio() {
     const currentYear = new Date().getFullYear();
     return (
         <>
-            <div className='flex flex-col gap-[10px] sm:flex-row sm:gap-0'>
+            <div id='portfolio' className='flex flex-col gap-[10px] sm:flex-row sm:gap-0'>
                 <div className='left-0 top-0 hidden sm:block z-20'>
                     <Info/>
                 </div>
