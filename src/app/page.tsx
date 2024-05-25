@@ -1,8 +1,4 @@
-import Info from "@/components/Info";
-import Awards from "@/components/Awards";
-import Projects from "@/components/Projects";
 import Portfolio from "@/components/Portfolio";
-import {Wing} from "@/components/svg";
 import Image from "next/image";
 
 export default function Home() {
