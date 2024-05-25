@@ -13,7 +13,7 @@ html, body {
   /*height: 100%;*/
   /*overflow: hidden;*/
   scroll-behavior: smooth;
-  background-color: var(--grayscale-200);
+  background-color: var(--grayscale-100);
   color: var(--grayscale-1000);
 }
 
