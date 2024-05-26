@@ -8,6 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        upDown: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-10px)' },
+        },
+      },
+      animation: {
+        upDown: 'upDown 2s ease-in-out infinite',
+      },
       colors: {
         'grayscale-100': 'var(--grayscale-100)',
         'grayscale-200': 'var(--grayscale-200)',
