@@ -18,7 +18,7 @@ export default function Info() {
                             Seungpyo Suh
                         </h1>
                         <p className='text-paragraph1 text-grayscale-600 text-center sm:text-left'>
-                            I&apos;m a Mobile/Frontend Developer<br/>
+                            I&apos;m a Mobile/Frontend Engineer<br/>
                             passionate about creating and learning.
                         </p>
                     </div>
