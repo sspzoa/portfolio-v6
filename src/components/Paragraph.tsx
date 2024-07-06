@@ -7,7 +7,7 @@ export default function Paragraph() {
             <div className='py-[250px] flex flex-col justify-center items-center'>
                 <div
                     className='flex sm:flex-row flex-col max-w-[1200px] justify-center items-center'>
-                    <Image className='rounded-[16px]' src={'/images/pic.jpeg'} alt={'pic'} width={400}
+                    <Image className='rounded-[16px] sm:scale-100 scale-90' src={'/images/pic.jpeg'} alt={'pic'} width={400}
                            height={400}/>
                     <div className='flex flex-col gap-[15px] p-[32px]'>
                         <h1 className='text-title'>안녕하세요.</h1>
