@@ -12,7 +12,7 @@ const suit = localFont({
 })
 
 export const metadata: Metadata = {
-    title: "Seungpyo Suh",
+    title: "서승표 • Seungpyo Suh",
     description: "I'm a Mobile/Frontend Developer, passionate about creating and learning."
 };
 
