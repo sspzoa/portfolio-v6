@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Paragraph() {
     return (
         <>
-            <div className='py-[250px] flex flex-col justify-center items-center'>
+            <div className='py-[200px] flex flex-col justify-center items-center'>
                 <div
                     className='flex sm:flex-row flex-col max-w-[1200px] justify-center items-center sm:items-start gap-[32px]'>
                     <Image className='rounded-full sm:scale-100 scale-90' src={'/images/pic.jpeg'} alt={'pic'} width={200}
