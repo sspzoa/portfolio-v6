@@ -1,4 +1,4 @@
-import { Android, Flutter, Nest, React } from '@/svg/svg';
+import { Android, FastAPI, Flutter, React } from '@/svg/svg';
 
 export const SkillsSection = () => (
   <div className="flex flex-col gap-[20px] items-center sm:items-start">
@@ -7,7 +7,7 @@ export const SkillsSection = () => (
       <Flutter />
       <Android />
       <React />
-      <Nest />
+      <FastAPI />
     </div>
   </div>
 );

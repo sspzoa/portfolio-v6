@@ -1,4 +1,4 @@
-import { Android, Flutter, Nest, React } from '@/svg/svg';
+import { Android, FastAPI, Flutter, React } from '@/svg/svg';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -25,7 +25,7 @@ export default function Info() {
               <Flutter />
               <Android />
               <React />
-              <Nest />
+              <FastAPI />
             </div>
           </div>
           <div className="flex flex-col gap-[20px] items-center sm:items-start">
